@@ -10,7 +10,6 @@ function validatePassword(password, passwordTemp){ //function for password check
     //variable declaration
     var capsChar = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
     var lowChar = "abcdefghijklmnopqrstuvwxyz" ;
-    var symbols = "!@#$%^&*()`~[]\;',./{}|:<>?";
     var number = "0123456789";
     
     //check if theres a capital letter
@@ -37,18 +36,6 @@ function validatePassword(password, passwordTemp){ //function for password check
         return false;
     }
 
-    //check if theres a symbol
-    var hasSymbol = false;
-    for (var i=0; i<password.length; i++){
-        if(symbols.includes(password[i])){
-            hasSymbol = true;    
-            break;
-        }
-    }
-    if(!hasSymbol){
-        return false;
-    }
-
     //check if theres a number
     var hasNumber = false;
     for (var i=0; i<password.length; i++){
@@ -61,6 +48,7 @@ function validatePassword(password, passwordTemp){ //function for password check
         return false;
     }
 
+    
     return true;
 }
 
