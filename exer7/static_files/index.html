@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Foods</title>
+</head>
+<body>
+    <form>
+        <fieldset>
+            <legend>Favorite Foods</legend>
+            <label for="fname">Name: </label> <input type="text" name="foodname" id="fname" required><br><br>
+            <label for="fdes">Description: </label> <input type="text" name="fdescription" id="fdes" required><br><br>
+            <label for="url">Image URL: </label> <input type="text" name="image" id="url" required><br><br>
+            <label for="rank">Rank Number: </label> <input type="number" name="ranknumber" id="rank" required><br><br>
+            <button type="button" id="submit">Submit</button>
+        </fieldset>
+    </form>
+    <div id="foodCards"></div>
+    <script src="./form.js"></script>
+</body>
+</html>
