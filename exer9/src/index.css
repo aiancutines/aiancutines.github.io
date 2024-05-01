@@ -1,0 +1,160 @@
+/* App.css */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+.header h1 {
+  font-size: 50px;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin: 0;
+  padding: 10px;
+  border-bottom: 2px solid #fff;
+}
+
+
+
+.navigation {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+
+.navigation button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.navigation button:hover {
+  background-color: #0056b3;
+}
+
+.options {
+  list-style: none;
+  padding: 0;
+  margin: 20px 0;
+}
+
+.options li {
+  margin-bottom: 10px;
+}
+
+.options img {
+  width: 100px;
+  height: 100px;
+  display: block;
+  margin-bottom: 5px;
+}
+
+.options button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.options button:hover {
+  background-color: #0056b3;
+}
+
+.options div {
+  margin-bottom: 30px; /* Add spacing between product name and button */
+}
+
+.options button {
+  margin-top: 30px; /* Add spacing above the button */
+}
+
+.options-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.option-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.option-image {
+  width: 100px;
+  height: 100px;
+  margin-right: 10px;
+}
+
+.option-details {
+  display: flex;
+  flex-direction: column;
+}
+
+.add-to-cart {
+  margin-top: 5px; /* Add margin-top to create space between the item name and "Add to Cart" button */
+}
+
+.category-button {
+  font-size: 24px; /* Adjust the font size as desired */
+  /* Add any other styling you want for the category buttons */
+}
+
+
+/* ShoppingCart */
+
+.shopping-cart {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 20px;
+  margin-top: 20px;
+  /* Adjust to position the shopping cart on the right */
+  margin-left: auto;
+  width: 300px; /* Adjust the width as needed */
+}
+
+.shopping-cart h2 {
+  margin-bottom: 10px;
+}
+
+.shopping-cart ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.shopping-cart li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.shopping-cart button {
+  background-color: #dc3545;
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.shopping-cart button:hover {
+  background-color: #c82333;
+}
